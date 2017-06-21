@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle);
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(lightblue, #d7b675);
+}
+#city {
+  font-size: 1.5em;
+}
+#city, #condition {
+  color: white;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  font-family: 'News Cycle', Verdana, sans serif;
+}
+#data {
+  font-size: 2.5em;
+  position: relative;
+  padding: 0px;
+  margin: -18px;
+  font-family: 'News Cycle',Verdana, sans serif;
+  color: white;
+}
+#data:hover {
+  cursor: pointer;
+}
+#conditionImage {
+  position: relative;
+  height: 4em;
+  width: 4em;
+}
+.container {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  left: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+}
+.yourWeather {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  height: 16em;
+  width: 12em;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 55px 1px grey;
+}
+.backButton, nav {
+  color: gray;
+  z-index: 100;
+  height: 10%;
+  transition-duration: 0.5s;
+}
+
+.backButton:hover {
+  color: black;
+}

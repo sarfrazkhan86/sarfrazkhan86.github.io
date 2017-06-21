@@ -70,7 +70,7 @@ a:active {
   text-decoration: none;
 }
 
- a:focus{
+a:focus{
   opacity: 0.9;
   color: rgb(51, 188, 153);
 }

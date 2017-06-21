@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
 });
 
-$(document).on('click', 'a', function(event){
+$(document).on('click', 'li a', function(event){
     event.preventDefault();
 
     $('html, body').animate({

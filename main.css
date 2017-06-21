@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  width: 100%;
+  margin: 0 0;
+  font-family: 'Raleway', sans-serif, serif;
+}
+
+nav {
+  padding-right: ;
+  position: fixed;
+  height: 55px;
+  display: inline;
+  z-index: 100;
+  width: 100%;
+  font-size: 1.5em;
+  background-color: rgb(45, 62, 82);
+  transition: linear 0.1s;
+  -webkit-transition: linear 0.1s;
+  -moz-transition: linear 0.1s;
+}
+
+.shrink {
+  height: 35px;
+  font-size: 1.1em;
+}
+
+.brand {
+  position: fixed;
+  font-size: 32px;
+  letter-spacing: -2px;
+  padding: ;
+  width: 50px;
+  margin: 2px 3px;
+  transition: linear 0.3s;
+  -webkit-transition: linear 0.3s;
+  -moz-transition: linear 0.3s;
+}
+
+.shrinkBrand {
+  font-size: 20px;
+  border: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 5px 2px;
+  margin: 8px 0px;
+}
+
+nav a {
+  color: white;
+}
+
+ul {
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ a:focus{
+  opacity: 0.9;
+  color: rgb(51, 188, 153);
+}
+
+.about-content, .projects, .contact {
+  position: relative;
+  margin-top: 65px;
+}
+
+.home {
+  text-align: center;
+  min-height: 580px;
+  position: relative;
+  margin-top: 100px;
+  color: rgb(65, 78, 75);
+}
+
+.about {
+  text-align: center;
+  display: inline-block;
+  min-height: 500px;
+}
+
+.about p {
+  font-size: 18px;
+  padding: 25px 20px;
+}
+
+.fa-star, .fa-minus {
+  color: white;
+  padding: 2px;
+}
+
+.about .fa-star, .about .fa-minus {
+  color: black;
+}
+
+.home-content, .project-content {
+  background-color: rgb(51, 188, 153) ;
+}
+
+.myImage {
+  height: auto;
+  width: 300px;
+  height: auto;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  bottom: 0px;
+  opacity: 0.9;
+}
+
+.projects {
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  min-height: 580px;
+}
+
+.project-tile1 {
+  background: url("quoteGenerator.png");
+  background-position: center;
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+  margin: 15px 0;
+}
+
+.project-tile2 {
+  background: url("workoutGenerator.png");
+  background-position: center;
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+  margin: 15px 0;
+}
+
+.project-tile3 {
+  background: url("weatherApp.png");
+  background-position: center;
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+  margin: 15px 0;
+}
+
+.project-info {
+  background: black;
+  opacity: 0;
+  position: absolute;
+  overflow: hidden;
+  padding-bottom: 100%;
+  margin: 0 0;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  transition: ease 0.5s;
+  color: white;
+}
+
+.project-info:hover {
+  opacity: 1;
+}
+
+.project-info p, .project-info span {
+  font-size: 16px;
+}
+
+.project-info p {
+  padding: 20px 0;
+}
+
+.proj {
+  padding: 25px 0;
+}
+
+.contact i {
+  color: black;
+}
+
+.contact {
+  text-align: center;
+  min-height: 400px;
+}
+
+.contact-info {
+  background: lightgray;
+  padding: 65px 0;
+  margin: 20px 0px;
+}
+
+.email {
+  background: gray;
+  border-radius: 3px;
+  padding: 10px 10px;
+  line-height: 40px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/**Footer**/
+.copyright {
+  position: relative;
+  line-height: 50px;
+  color: white;
+}
+
+.cont {
+  position: absolute;
+  text-align: center;
+  display: inline;
+  line-height: 50px;
+  padding-top: 10px;
+  background-color: rgb(45, 62, 82);
+  height: 200px;
+}
+
+.cont::after {
+  content: "Copyright (c) 2017 Sarfraz Khan.";
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  line-height: 30px;
+  width: 100%;
+  display: inline;
+  background-color: rgb( 36, 49, 65);
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 8px;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  color: #fff;
+  opacity: 0.7;
+}

@@ -82,7 +82,7 @@ a:focus{
 
 .home {
   text-align: center;
-  min-height: 580px;
+  min-height: 84vh;
   position: relative;
   margin-top: 100px;
   color: rgb(65, 78, 75);
@@ -91,12 +91,13 @@ a:focus{
 .about {
   text-align: center;
   display: inline-block;
-  min-height: 500px;
+  min-height: 90vh;
 }
 
 .about p {
   font-size: 18px;
   padding: 25px 20px;
+  margin: 20px auto;
 }
 
 .fa-star, .fa-minus {
@@ -129,7 +130,7 @@ a:focus{
   margin-right: 10px;
   margin-left: 10px;
   color: white;
-  min-height: 580px;
+  min-height: 90vh;
 }
 
 .project-tile1 {
@@ -204,13 +205,14 @@ a:focus{
 
 .contact {
   text-align: center;
-  min-height: 400px;
+  min-height: 80vh;
 }
 
 .contact-info {
   background: lightgray;
   padding: 65px 0;
-  margin: 20px 0px;
+  margin: 50px 0px;
+  border: 1px solid gray;
 }
 
 .email {

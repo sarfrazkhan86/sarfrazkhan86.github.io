@@ -82,7 +82,7 @@ a:focus{
 
 .home {
   text-align: center;
-  min-height: 84vh;
+  min-height: 100vh;
   position: relative;
   margin-top: 100px;
   color: rgb(65, 78, 75);
@@ -110,7 +110,8 @@ a:focus{
 }
 
 .home-content, .project-content {
-  background-color: rgb(51, 188, 153) ;
+  background-color: rgb(51, 188, 153);
+  padding: 0;
 }
 
 .myImage {
@@ -127,10 +128,10 @@ a:focus{
 
 .projects {
   text-align: center;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
   color: white;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .project-tile1 {
@@ -142,7 +143,7 @@ a:focus{
   position: relative;
   overflow: hidden;
   padding-bottom: 100%;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .project-tile2 {
@@ -154,7 +155,7 @@ a:focus{
   position: relative;
   overflow: hidden;
   padding-bottom: 100%;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .project-tile3 {
@@ -166,7 +167,7 @@ a:focus{
   position: relative;
   overflow: hidden;
   padding-bottom: 100%;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .project-info {
@@ -197,6 +198,7 @@ a:focus{
 
 .proj {
   padding: 25px 0;
+  margin: auto;
 }
 
 .contact i {
@@ -235,7 +237,8 @@ a:focus{
 .cont {
   position: absolute;
   text-align: center;
-  display: inline;
+  display: block;
+  width: 100vw;
   line-height: 50px;
   padding-top: 10px;
   background-color: rgb(45, 62, 82);
